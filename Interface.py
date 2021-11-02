@@ -4,7 +4,7 @@ from PySimpleGUI import PySimpleGUI as sg
 sg.theme('Reddit')
 layout = [
     [sg.Text('Mensagem'), sg.Input(key='mensagem', size=(50, 10))],
-    [sg.Checkbox('Crifrar documento?')],
+    [sg.Checkbox('Cifrar documento?')],
     [sg.Button('Sim')]
 ]
 #Janela
